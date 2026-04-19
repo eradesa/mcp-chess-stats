@@ -1,5 +1,5 @@
 To install the add_tool MCP server, run the following command:
-
+```
 {
   "mcpServers": {
     "chess-stat-server": {      
@@ -19,4 +19,5 @@ To install the add_tool MCP server, run the following command:
       #env:
       #  FILE_IO_BASE_DIR: "/home/erangadesaram/Downloads"  # optional
       transport: "stdio"
+```
 This will fetch and set up the mcp-server from the specified GitHub repository.
